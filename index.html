@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="UTF-8">
+ <meta http-equiv="X-UA-Compatible" content="IE=edge">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <link rel="stylesheet" href="style.css">
+ <title>Cadastro</title>
+</head>
+<body>
+ <main>
+  <div class="container-cadastro">
+
+   <h1>Cadastro</h1>
+
+   <form action="/cadastro" method="POST">
+
+    <div class="input-container">
+     <label for="name">Nome:</label>
+     <input type="text" name="name" id="name" required placeholder="Digite seu nome">
+    </div>
+
+    <div class="input-container">
+     <label for="email">E-mail:</label>
+     <input type="email" name="email" id="email" required placeholder="seuemail@email.com">
+    </div>
+
+    <div class="input-container">
+     <label for="password">Senha:</label>
+     <input type="password" name="password" id="password" required placeholder="Insira uma senha">
+    </div>
+
+    <div class="input-container">
+     <label for="password-confirmation">Confirmar Senha:</label>
+     <input type="password" name="password-confirmation" id="password-confirmation" required placeholder="Confirme sua senha">
+    </div>
+
+    <button type="submit">Enviar</button>
+
+   </form>
+
+   <div class="divider"></div>
+
+   <footer class="rodape-cadastro">
+    <span>Nos acompanhe nas redes sociais:</span>
+  
+    <div class="social-media">
+     <img src="/images/facebook-logo.png" alt="ícone Facebook">
+     <img src="/images/linkedin-logo.png" alt="ícone LinkedIn">
+     <img src="/images/tiktok-logo.png" alt="ícone TikTok">
+     <img src="/images/twitter-logo.png" alt="ícone Twitter">
+    </div>
+  
+   </footer>
+
+  </div>
+
+ </main>
+ 
+ 
+</body>
+</html>

@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;500&family=Ropa+Sans&display=swap');
+
+* {
+ box-sizing: border-box;
+ margin: 0px;
+ padding:0px;
+ font-family: 'Roboto', sans-serif;
+ color: #ffffff
+}
+
+
+body {
+ background-color: #1f2531;
+}
+
+main {
+ display:flex;
+ justify-content: center;
+ margin-top: 20px;
+}
+
+.container-cadastro{
+ width: 500px;
+ background-color: #474b52;
+ padding: 50px;
+ display:flex;
+ flex-direction: column;
+}
+
+h1 {
+ display:flex;
+ justify-content: center;
+}
+
+form {
+ margin-top: 20px;;
+}
+
+.input-container {
+ display: flex;
+ flex-direction: column;
+ margin-top: 20px;
+}
+
+.input-container input {
+ background-color: #1f2531;
+ margin-top: 5px;
+ height: 50px;
+ border-radius: 10px;
+ border: 1px solid #1f2531;
+ outline: none;
+ padding-left: 10px;
+ font-size: 17px;
+ font-weight: 300;
+}
+
+input:focus {
+ border: 3px solid #8acbf3;
+}
+
+button {
+ display:flex;
+ justify-content: center;
+ width: 100%;
+ height: 50px;
+ margin-top: 50px;
+ padding-top: 12px;
+ border-radius: 10px;
+ border: none;
+ background-color: #8acbf3;
+ cursor: pointer;
+ font-size: 20px;
+ color: #1f2531;
+ font-weight: 600;
+}
+
+button:hover {
+ background-color: #6c9fbf;
+ transition: background-color 0.5s;
+}
+
+.divider {
+ background-color: #fff;
+ margin: 50px auto 0px auto;
+ width: 100%;
+ border: 0.5px solid #fff;
+}
+
+.rodape-cadastro {
+ margin-top: 50px;
+}
+
+footer span{
+ display: flex;
+ justify-content: center;
+ margin-bottom: 20px;
+ font-weight: 300;
+ font-size: 15px;
+}
+
+
+.social-media img{
+ width: 60px;
+ height: 60px;
+ padding: 5px;
+ cursor: pointer;
+ transition: 0.5s;
+}
+
+.social-media img:hover{
+ width: 70px;
+ height: 70px;
+}
+
+.social-media {
+ display: flex;
+ justify-content: center;
+}
+
+
