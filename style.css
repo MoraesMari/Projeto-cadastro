@@ -72,11 +72,12 @@ button {
  font-size: 20px;
  color: #1f2531;
  font-weight: 600;
+ transition: background-color 0.8s;
 }
 
 button:hover {
- background-color: #6c9fbf;
- transition: background-color 0.5s;
+ background-color: #1f2531;
+ color: #8acbf3;
 }
 
 .divider {
